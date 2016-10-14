@@ -1,20 +1,22 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.22.3'
+gem 'rails', '4.0.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sass-rails',   '3.2.6'
+gem 'sass-rails',   '5.0.6'
 gem 'sass',         '3.4.21'
-gem 'coffee-rails', '3.2.2'
+gem 'coffee-rails', '4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', :platforms => :ruby
 
 gem 'uglifier', '2.7.2'
 
-
+# mime-types 3.0.0 requires Ruby 2.0.0, and _something_ is trying to update it
+gem 'mime-types', '2.99.2'
+gem 'json', '1.8.3'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
