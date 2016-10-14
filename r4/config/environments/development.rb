@@ -23,6 +23,6 @@ R3::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
 
-  config.assets.compress = true
+  config.assets.js_compressor = :uglifier
   config.assets.debug = false
 end

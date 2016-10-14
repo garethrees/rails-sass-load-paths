@@ -8,7 +8,7 @@ R3::Application.configure do
   config.cache_classes = true
 
   config.serve_static_assets = true
-  config.assets.compress = true
+  config.assets.js_compressor = :uglifier
   config.assets.debug = false
 
   # Log error messages when you accidentally call methods on nil
